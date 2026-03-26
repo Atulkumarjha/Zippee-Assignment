@@ -207,19 +207,3 @@ pytest apps/accounts/tests.py
 pytest apps/tasks/tests.py
 ```
 
-## Notes
-
-- Keep .env private and never commit real secrets.
-- If Docker is not running, PostgreSQL container will not start.
-- If you prefer SQLite for quick local checks, switch DB_ENGINE and DB_NAME in .env.
-
-## Submission Checklist
-
-- Source code pushed to GitHub
-- README with setup and usage instructions
-- Working API documentation endpoints
-- Tests passing with pytest
-
-## License
-
-This project is for assignment/demo purposes.
